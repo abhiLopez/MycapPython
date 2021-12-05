@@ -14,15 +14,8 @@ print (most_frequent(a),end=" ")
 
 
 ###########
-
+# Another method 
 from collections import Counter
-  
-# initializing string 
-test_str =input("Enter a String : ") 
-  
-# using collections.Counter() to get 
-# count of each element in string 
+test_str =input("Enter a String : ")  
 res = Counter(test_str)
-  
-# printing result 
 print ("Count of all characters in ",test_str," is :\n "+  str(res),end=" ")
